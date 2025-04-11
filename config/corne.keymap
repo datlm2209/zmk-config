@@ -51,9 +51,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp F1      &kp F2        &kp F3        &kp F4   &kp F5       &kp PAGE_UP    &kp HOME          &kp UP      &kp END     &msc SCRL_UP    &kp BSPC
-&trans     &kp F6      &kp F7        &kp F8        &kp F9   &kp F10      &kp PAGE_DOWN  &kp LEFT          &kp DOWN    &kp RIGHT   &msc SCRL_DOWN  &trans
-&kp LSHFT  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp F11  &kp F12      &trans         &kp K_PLAY_PAUSE  &kp K_PREV  &kp K_NEXT  &trans          &trans
+&kp TAB    &kp F1      &kp F2        &kp F3        &kp F4   &kp F5       &kp PAGE_UP    &kp HOME          &kp UP          &kp END     &msc SCRL_UP    &kp BSPC
+&trans     &kp F6      &kp F7        &kp F8        &kp F9   &kp F10      &kp PAGE_DOWN  &kp LEFT          &kp DOWN        &kp RIGHT   &msc SCRL_DOWN  &trans
+&kp LSHFT  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp F11  &kp F12      &trans         &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT  &trans          &trans
                                      &kp LGUI      &trans   &kp SPACE    &kp RET        &trans            &kp RALT
             >;
         };
